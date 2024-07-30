@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Edge Extension</title>
+  <style>
+    body { width: 300px; }
+    .section { margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <div class="section">
+    <h2>Bookmarks</h2>
+    <ul id="bookmarks"></ul>
+    <input type="text" id="newBookmark" placeholder="Add new bookmark">
+    <button id="addBookmark">Add</button>
+  </div>
+
+  <div class="section">
+    <h2>To-Do List</h2>
+    <ul id="todoList"></ul>
+    <input type="text" id="newTodo" placeholder="Add new task">
+    <button id="addTodo">Add</button>
+  </div>
+
+  <div class="section">
+    <h2>Gmail Inbox (Mock)</h2>
+    <ul id="gmailInbox"></ul>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
